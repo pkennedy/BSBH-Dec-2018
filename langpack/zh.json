@@ -1,0 +1,21 @@
+{
+	"token": {
+        "Welcome" : "奥奥奥",
+        "About Us" : "奥会暂最",
+        "Location" :  "护朝鲜极端",
+		"Getting Here" : "原本他曾在乔",
+		"Contact Us" : "考虑发的",
+		"Accomodations" : "朝发动预",
+		"ServicesAndAmenities" : "了获们学会利用自己",
+		"Contact Us" : "及他公民撤离韩国",
+		"Destinations" : "承诺因为他自己",
+		"Gallery" : "上海市家星",
+		"Room Reservations" : "钱的开始追求长生",
+		"lorem" : "ตรงกันข้ามกับความเชื่อที่นิยมกัน Lorem Ipsum ไม่ได้เป็นเพียงแค่ชุดตัวอักษรที่สุ่มขึ้นมามั่วๆ แต่หากมีที่มาจากวรรณกรรมละตินคลาสสิกชิ้นหนึ่งในยุค  ..."
+	},
+	"regex": [
+		["Budget", "งบประมาณ"],
+		["^Something at start of text", ""],
+		["This will be case insensitive", "i", ""]
+	]
+}

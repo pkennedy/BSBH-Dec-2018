@@ -1,0 +1,1828 @@
+body{
+    color:#333
+}
+.containerDesktop{
+    width:260px;
+    margin:0 auto
+}
+.container{
+    width:240px;
+    margin:0 auto
+}
+#containerTop{
+    position:relative;
+    z-index:5;
+    padding-top:26px
+}
+#containerContent{
+    border-bottom:1px solid #dadada;
+    border-left:1px solid #dadada;
+    border-right:1px solid #dadada;
+    margin-bottom:20px;
+    width:958px
+}
+#containerNavMinor{
+    position:absolute;
+    top:0;
+    text-align:right;
+    z-index:5
+}
+ul,ol{
+    margin:0;
+    padding:0
+}
+ul li,ol li{
+    list-style-type:none
+}
+ul a,ol a{
+    text-decoration:none
+}
+.navBlock li{
+    display:block;
+    float:left
+}
+.navInline{
+    display:inline
+}
+.navInline li{
+    display:inline
+}
+.navSeparated a{
+    border-left:1px solid #858585;
+    margin-left:6px;
+    padding-left:6px
+}
+.navSeparated li:first-child a{
+    border-left:none;
+    margin-left:0;
+    padding-left:0
+}
+.navContent{
+    margin-bottom:20px
+}
+.navContent .selected{
+    color:#000!important
+}
+.navBordered li{
+    border-top:1px solid #e0dfdf;
+    border-bottom:1px solid #e0dfdf;
+    margin-bottom:-1px
+}
+.navDetails li{
+    margin-bottom:14px
+}
+.navTabs{
+    border-bottom:1px solid #e0dfdf
+}
+.navTabs li{
+    border:1px solid transparent;
+    padding:0 10px;
+    margin-bottom:-1px
+}
+.navTabs .selected{
+    border:1px solid #e0dfdf;
+    border-bottom:1px solid #fff
+}
+.navTabs a,.navTabs span{
+    display:block;
+    line-height:53px;
+    font-size:13px;
+    color:#333
+}
+#reserveStep2 .navTabs li{
+    padding:0 7px!important
+}
+#navPrimary{
+    position:absolute;
+    top:35px;
+    left:180px;
+    width:780px
+}
+#navPrimary>li{
+    position:relative;
+    height:24px;
+    padding:19px 9px 22px 9px;
+    border:1px solid transparent
+}
+#navPrimary>li:last-child{
+    padding-right:0!important
+}
+#navPrimary>li>a{
+    font-size:14px;
+    line-height:24px;
+    display:block;
+    color:#333;
+    letter-spacing:.001em
+}
+#navPrimary>li>a:hover{
+    text-decoration:none
+}
+#navPrimary .hover:hover{
+    border:1px solid #dadada;
+    border-bottom:1px solid #fff;
+    background:#fff
+}
+#navPrimary .hover:hover>div{
+    display:block
+}
+#navPrimary .selected{
+    border-bottom:1px solid #d0d0d0
+}
+#navMinor{
+    margin-top:1px
+}
+#navMinor>li{
+    position:relative;
+    height:21px;
+    padding:0 5px;
+    border:1px solid transparent;
+    text-align:center
+}
+#navMinor a{
+    font-size:12px;
+    line-height:20px;
+    color:#333;
+    display:block
+}
+#navTopProperties:hover{
+    border:1px solid #dadada;
+    border-bottom:1px solid #fff;
+    background:#fff
+}
+#navTopProperties:hover>div{
+    display:block
+}
+.navSide{
+    background:url(//www.raffles.com/frhi/inc/img/patterns/background/brand.gif) no-repeat left top;
+    min-height:580px
+}
+.navSide a{
+    font-size:14px;
+    display:block;
+    margin:13px 6px;
+    padding-left:14px;
+    font-family:Georgia,Times,Times New Roman,serif;
+    color:#333
+}
+.navSide .navTertiary{
+    padding-left:20px;
+    margin-left:0
+}
+.navSide .navTertiary li:first-child{
+    border-top:0
+}
+.navSide .selected{
+    color:#708fa5;
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat 0 -241px
+}
+.navSide a.selected.noarrow{
+    background:0
+}
+#breadcrumb a{
+    color:#333!important;
+    font:13px/21px Georgia,Times,Times New Roman,serif
+}
+.navRoomDetails .selected{
+    font-weight:bold
+}
+#navLanguages{
+    padding:19px 10px!important;
+    text-align:center
+}
+#navLanguages:hover{
+    border:1px solid #dadada;
+    background:#fff;
+    height:auto
+}
+#navLanguages:hover>.navStaticFlyout{
+    visibility:visible
+}
+.navStaticFlyout{
+    visibility:hidden;
+    padding:15px 0 0 0
+}
+.navStaticFlyout ul{
+    padding:10px 0
+}
+.navStaticFlyout li{
+    float:none
+}
+.navStaticFlyout a{
+    color:#666;
+    font-size:13px
+}
+.staticFlyoutSeparator{
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat -408px 0;
+    width:79px;
+    height:10px
+}
+.staticFlyoutSeparator.bot{
+    background-position:-408px -11px
+}
+#navTopLanguages .navStaticFlyout{
+    padding-top:5px
+}
+#navTopLanguages ul{
+    padding:10px 0
+}
+#navTopLanguages li{
+    float:none
+}
+#navTopLanguages:hover{
+    border:1px solid #dadada;
+    background:#fff;
+    height:auto
+}
+#navTopLanguages:hover>.navStaticFlyout{
+    visibility:visible
+}
+.flyout{
+    display:none;
+    background:#fff;
+    border:1px solid #dadada;
+    padding:20px 10px;
+    width:702px;
+    text-align:center;
+    -moz-box-shadow:5px 10px 10px 0 rgba(10,10,10,0.1);
+    -webkit-box-shadow:5px 10px 10px 0 rgba(10,10,10,0.1);
+    box-shadow:5px 10px 10px 0 rgba(10,10,10,0.1)
+}
+.navFlyout{
+    position:absolute;
+    top:65px;
+    left:-255px;
+    z-index:-1;
+    width:510px
+}
+.flyoutSeparator{
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat -106px -54px;
+    height:19px;
+    width:702px;
+    margin:0 auto
+}
+.ie8 .flyoutSeparator{
+    width:510px;
+    background-position-x:-198px;
+    margin:0 auto
+}
+.flyoutContent{
+    padding:20px 0
+}
+.flyoutContent li{
+    float:none
+}
+.flyoutContent h5{
+    margin:8px 0 0 0
+}
+.flyoutCol{
+    float:left;
+    padding-left:28px;
+    width:143px
+}
+.flyoutCol:first-child{
+    padding-left:0
+}
+.flyoutCol li{
+    text-align:center;
+    line-height:17px
+}
+.ie8 .container #mapListings .row.brand .span12 hr{
+    width:100%
+}
+.ie8 .container #mapListings hr{
+    width:102%
+}
+.ie8 .brand-controls label{
+    margin:0 22px 0 10px
+}
+.ie8 .brand-controls{
+    padding:0 0 0 12px
+}
+.flyoutCol a{
+    color:#666;
+    font-size:12px
+}
+.flyoutFooter p{
+    font:14px/20px Georgia,Times,Times New Roman,serif
+}
+.flyoutTitle{
+    font:16px/24px Georgia,Times,Times New Roman,serif
+}
+.flyoutTitle.big{
+    font-size:23px;
+    line-height:29px;
+    color:#000
+}
+.flyoutDots{
+    width:60px;
+    margin:20px auto
+}
+.modalFlyout{
+    position:fixed;
+    z-index:9999;
+    padding:40px 20px!important
+}
+#modalMask{
+    display:none;
+    height:100%;
+    z-index:9998
+}
+#navTopFlyout{
+    position:absolute;
+    z-index:1;
+    width:240px;
+    top:21px;
+    left:-90px;
+    display:none;
+    padding:10px;
+    border:1px solid #dadada;
+    background:#fff
+}
+#navTopFlyout .flyoutSeparator{
+    width:230px;
+    background-position:-334px -54px;
+    margin:0 auto
+}
+#navTopFlyout ul{
+    padding-bottom:10px
+}
+#navTopFlyout li{
+    float:none
+}
+#navTopFlyout .bt{
+    display:inline-block;
+    margin-bottom:10px;
+    font-size:11px
+}
+.dot.active{
+    background-position:-14px 0
+}
+h1,h2,h3,h4{
+    font-family:Georgia,Times,Times New Roman,serif;
+    font-weight:normal
+}
+h1{
+    font-size:32px;
+    line-height:32px
+}
+h2{
+    font-size:18px
+}
+h3{
+    font-size:15px
+}
+h1 a,h2 a,h3 a,h4 a{
+    text-decoration:none
+}
+a{
+    color:#708fa5
+}
+.noUnderline{
+    text-decoration:none
+}
+a:hover,.noUnderline:hover{
+    text-decoration:underline
+}
+a:focus{
+    outline:thin dotted
+}
+a:hover,a:active,a:focus{
+    outline:0
+}
+.content{
+    padding:20px 0 45px 0
+}
+.content h1{
+    margin-top:0;
+    line-height:1
+}
+.content h1 span,.content h1 a{
+    display:block;
+    font-size:14px;
+    margin-bottom:2px
+}
+.underlined{
+    border-bottom:1px solid #e0dfdf;
+    padding-bottom:16px
+}
+.rightBorder{
+    border-right:1px solid #e0dfdf
+}
+.underlined.thick{
+    border-bottom-width:3px
+}
+.doubleUnderlined{
+    border-bottom:4px double #e0dfdf;
+    padding-bottom:16px
+}
+.overlined{
+    border-top:1px solid #e0dfdf;
+    padding-top:16px
+}
+.overlined.thick{
+    border-top-width:3px
+}
+.title{
+    padding:0;
+    font:14px/34px Georgia,Times,Times New Roman,serif
+}
+.dark{
+    color:#000
+}
+.light{
+    color:#666
+}
+#contentBody,#containerPopup{
+    font-size:13px
+}
+#contentBody p,#containerPopup p{
+    margin-top:0
+}
+#contentBody p,#contentBody ul,#containerPopup p,#containerPopup ul,{
+    color:#666;
+    line-height:22px
+}
+#contentDesc{
+    line-height:1.5
+}
+.contentSeparator{
+    border-top:1px solid #e0dfdf;
+    margin:42px 0
+}
+.contentBanner{
+    display:block;
+    margin:0 0 36px 0
+}
+.contentBannerCaption{
+    margin:-30px 0 20px 0
+}
+.propBg{
+    background:#ccc
+}
+.printPositioned{
+    position:relative
+}
+.print{
+    position:absolute;
+    top:2px;
+    right:0;
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat -445px -103px;
+    padding-left:22px;
+    line-height:16px;
+    text-decoration:none;
+    text-transform:lowercase
+}
+.print.withBreadcrumb{
+    top:32px
+}
+.callout{
+    width:250px;
+    margin:20px 0;
+    font:18px/30px Georgia,Times,Times New Roman,serif;
+    text-align:center
+}
+.callout.left{
+    margin-right:20px
+}
+.callout.right{
+    margin-left:20px
+}
+.calloutContent{
+    padding:20px 0
+}
+.calloutSeparator{
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat -324px -54px;
+    height:19px;
+    width:250px
+}
+#footer{
+    padding:45px 0 75px 0;
+    text-align:center;
+    color:#999
+}
+.navFooter a{
+    color:#999;
+    font-size:12px
+}
+.navFooterMinor{
+    margin-left:8px
+}
+.navFooterMinor a{
+    color:#858585;
+    font-size:12px
+}
+#copyright{
+    font-size:12px;
+    margin:14px 0 32px 0
+}
+#social span{
+    margin-right:6px;
+    font-size:12px
+}
+.social{
+    width:15px;
+    height:22px;
+    margin-left:4px;
+    vertical-align:middle
+}
+.youtube{
+    width:51px
+}
+.instagram{
+    width:15px;
+    border-radius:3px
+}
+.featured{
+    text-align:center;
+    padding-bottom:6px
+}
+.featured img{
+    display:block
+}
+.featured p{
+    font-weight:normal;
+    font-size:14px;
+    margin:8px 0 0;
+    font-family:Georgia,Times,Times New Roman,serif
+}
+.featured a{
+    font-size:12px;
+    font-weight:bold
+}
+.photoGrid{
+    font-size:12px;
+    padding-bottom:8px
+}
+.photoGrid .photoGridTitle a{
+    margin-top:14px;
+    display:block
+}
+.photoGrid .intro{
+    margin:-12px 0 0 0!important
+}
+.photoGrid dl{
+    margin:8px 0 28px 0
+}
+.photoGrid dt,.photoGrid dd{
+    display:inline;
+    margin:0;
+    padding:0
+}
+.photoGrid .nav a{
+    border-left:1px solid #666;
+    margin-left:4px;
+    padding-left:4px
+}
+.photoGrid .nav li:first-child a{
+    border-left:none
+}
+.exploreInterest{
+    padding-bottom:15px
+}
+.grid{
+    width:100%;
+    font-family:Georgia,Times,Times New Roman,serif
+}
+.grid a.bt{
+    text-transform:none
+}
+.grid .noUnderline{
+    font-size:13px
+}
+.autoWidth{
+    width:auto
+}
+.grid caption{
+    text-align:left;
+    font-size:18px;
+    margin-bottom:2px
+}
+.grid caption a{
+    float:right;
+    font-size:13px;
+    margin:4px 8px 0 0
+}
+.grid th{
+    font-weight:normal;
+    text-align:left;
+    font-size:14px;
+    padding:18px 8px
+}
+.grid td{
+    font-size:14px;
+    padding:14px 8px
+}
+.grid tbody a{
+    font-family:Arial,San-serif
+}
+.grid .highlight td{
+    background:#efefef
+}
+.darkRow th{
+    padding-top:13px;
+    padding-bottom:13px
+}
+.nowrap{
+    white-space:nowrap
+}
+.col40{
+    width:40%
+}
+.col25{
+    width:25%
+}
+.col5{
+    width:5%
+}
+.lt-ie8 .grid .overlined td{
+    border-top:1px solid #e0dfdf
+}
+.featureList li:first-child{
+    border-top:0
+}
+.lt-ie8 .navBordered.featureList li{
+    margin-bottom:0
+}
+.blockToggle{
+    display:block;
+    line-height:30px;
+    padding-left:50px
+}
+.arrowToggle{
+    font-size:14px;
+    margin:20px 0
+}
+.toggle.expanded{
+    background-position:0 -185px
+}
+.feature{
+    padding:0 0 20px 50px
+}
+.itemRow h2{
+    margin:0;
+    font-family:Arial,Sans-Serif;
+    font-size:14px
+}
+.itemRow p{
+    margin:0
+}
+.itemGridRow,.itemFlowRow{
+    padding-bottom:20px
+}
+.itemFlowRow h2{
+    margin-top:10px
+}
+.mask{
+    opacity:.8;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:136px;
+    background:#eaeaea;
+    z-index:3
+}
+.lt-ie9 .mask{
+    filter:alpha(opacity=80)
+}
+#navPager li{
+    margin-left:8px
+}
+#navPager li a{
+    color:#666
+}
+#navPager li a.activePage{
+    font-weight:bold
+}
+#navPager li:first-child{
+    margin-left:0
+}
+.yesOrNo{
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat;
+    height:30px;
+    width:30px;
+    vertical-align:middle;
+    margin-right:10px
+}
+.yes{
+    background-position:-90px 0
+}
+.no{
+    background-position:-122px 0
+}
+.icon-none.yesOrNo{
+    background:0
+}
+.img2col{
+    width:140px;
+    height:54px
+}
+.img3col{
+    width:220px;
+    height:86px
+}
+.img4col{
+    width:300px;
+    height:117px
+}
+.img9col{
+    width:700px;
+    height:272px
+}
+.scrollerContainer{
+    position:relative
+}
+.scrollerButton{
+    position:absolute;
+    bottom:20px;
+    width:34px;
+    height:34px;
+    z-index:3
+}
+.scrollerPrev{
+    left:20px;
+    background-position:-189px 0
+}
+.scrollerNext{
+    left:74px;
+    background-position:-237px 0
+}
+.scrollerButtonInactive{
+    opacity:.4;
+    cursor:default
+}
+.lt-ie9 .scrollerButtonInactive{
+    filter:alpha(opacity=40)
+}
+.scroller{
+    position:absolute;
+    overflow:hidden;
+    z-index:2
+}
+.scroller ul{
+    width:9999px
+}
+.scroller li{
+    position:relative
+}
+.lazy.spin{
+    width:32px;
+    height:32px;
+    position:absolute;
+    z-index:1;
+    left:50%;
+    top:50%;
+    margin-left:-16px;
+    margin-top:-16px
+}
+.error{
+    color:#c00!important
+}
+.errorContainer{
+    margin-bottom:16px
+}
+.noLanguageContainer{
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat -482px -80px;
+    padding:22px 0 6px 85px
+}
+.errorContainer .error,.noLanguageContainer .error{
+    font-weight:bold;
+    font-size:14px
+}
+.errorContainer a{
+    color:#333
+}
+.ib{
+    display:inline-block;
+    zoom:1;
+    *display:inline
+}
+hr.thick{
+    border-top:3px solid #dcdbda
+}
+.centreText{
+    text-align:center!important
+}
+#atMedia{
+    display:none
+}
+#atMedia .lazy{
+    width:1px;
+    height:1px
+}
+.darkRow{
+    background:#efefef;
+    border-top:1px solid #dcdbda;
+    border-bottom:1px solid #dcdbda
+}
+.padded{
+    padding:13px
+}
+.stacked dt,.stacked dd{
+    display:block;
+    margin:0 0 2px 0;
+    padding:0
+}
+.left{
+    float:left!important
+}
+.right{
+    float:right!important
+}
+.spinner{
+    width:32px;
+    height:32px;
+    background-image:url(//www.raffles.com/frhi/inc/img/spinner.gif)
+}
+.tight{
+    margin-bottom:0
+}
+#containerPopup{
+    margin:0 auto;
+    position:relative;
+    padding:45px
+}
+#containerPopup h1{
+    margin-top:0
+}
+#popupClose{
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat -56px 0;
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:23px;
+    right:23px
+}
+#containerPopup p{
+    font-size:13px
+}
+#containerPopup dt{
+    float:left;
+    clear:both;
+    width:20%
+}
+#containerPopup dd{
+    float:left;
+    width:74%
+}
+#containerPopup .dark{
+    font-size:13px;
+    line-height:24px
+}
+#containerPopup .light{
+    font-size:13px;
+    line-height:24px;
+    color:#666
+}
+.lt-ie8 #containerPopup h1{
+    padding-top:20px
+}
+#navDailyRates li{
+    margin:0 20px 10px 0
+}
+.reserveSurveyTitle{
+    color:#000;
+    font-size:13px;
+    line-height:20px;
+    float:left;
+    width:40%;
+    padding-right:10%
+}
+.reserveSurveyQuestionGroup{
+    float:left;
+    width:50%;
+    font-size:12px
+}
+#propertyWeather{
+    border-left:1px solid #e0dfdf;
+    padding-left:35px
+}
+#propertyWeather dd{
+    margin:2px 0 16px 0;
+    font:20px Georgia,Times,Times New Roman,serif
+}
+#propertyWeather dd span{
+    font-size:14px
+}
+#propertyAddress ul{
+    margin-left:10px
+}
+#propertyNumbers{
+    margin:0
+}
+#propertyNumbers dt,#propertyNumbers dd{
+    display:inline;
+    margin:0;
+    padding:0
+}
+#propertyNumbers dd{
+    margin-right:8px
+}
+#mediaNav{
+    height:37px;
+    position:relative;
+    z-index:2
+}
+#mediaNav .nav a{
+    color:#333;
+    font-size:13px
+}
+#mediaNav .nav .selected{
+    font-weight:bold
+}
+#mediaCategoriesContainer{
+    height:30px;
+    padding:0;
+    position:relative;
+    z-index:3
+}
+#mediaCategories{
+    background:#fff;
+    height:30px;
+    padding:0;
+    border:1px solid #dadada;
+    overflow:hidden;
+    position:relative;
+    float:right;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px
+}
+#mediaCategoriesNav{
+    position:relative;
+    width:auto;
+    z-index:3;
+    padding:0 40px 0 10px
+}
+#mediaCategoriesNav a{
+    height:30px;
+    line-height:30px;
+    margin:0;
+    display:block
+}
+#mediaCategoriesNavArrow{
+    position:absolute;
+    top:0;
+    right:0;
+    display:block;
+    height:30px;
+    width:30px;
+    z-index:4;
+    background:url(//www.raffles.com/frhi/inc/img/webkit-arrow.gif) no-repeat center center;
+    cursor:pointer
+}
+#mediaCategoriesContainer.expanded #mediaCategories{
+    height:auto
+}
+#mediaContainer{
+    position:relative;
+    z-index:1;
+    margin-bottom:62px
+}
+.mediaDimension{
+    width:958px;
+    height:372px
+}
+#mediaContainer .button{
+    background-image:url(//www.raffles.com/frhi/inc/img/sprite.png);
+    background-repeat:no-repeat
+}
+#photoslider{
+    position:relative;
+    overflow:hidden
+}
+#photoslider img{
+    display:inline;
+    z-index:5;
+    width:100%;
+    height:100%
+}
+#photoslider.notouch li{
+    position:absolute;
+    top:0;
+    left:0;
+    display:none
+}
+#photoslider.notouch li:first-child{
+    display:list-item
+}
+#mediaControlsContainer{
+    height:44px;
+    margin-top:-44px;
+    position:relative;
+    z-index:2
+}
+#mediaControlsContainer .mask{
+    height:44px
+}
+#mediaControls{
+    position:relative;
+    z-index:4;
+    padding-top:14px;
+    font:italic 12px/18px Georgia,Times,Times New Roman,serif
+}
+#mediaControls .button{
+    padding-left:20px;
+    text-decoration:none;
+    color:#333;
+    display:block;
+    font-family:Arial,Sans-Serif;
+    font-style:normal
+}
+#mediaControls .buttonThumb{
+    background-position:-445px -72px;
+    padding-left:30px
+}
+#mediaControls .buttonThumb span{
+    background-image:url(//www.raffles.com/frhi/inc/img/sprite.png);
+    background-repeat:no-repeat;
+    width:14px;
+    height:8px;
+    margin-left:10px
+}
+#mediaControlsPause{
+    background-position:0 -118px
+}
+#mediaControlsPlay{
+    background-position:0 -100px
+}
+#mediaControlsExpand span{
+    background-position:0 -92px
+}
+#mediaControlsCollapse span{
+    background-position:0 -79px
+}
+#mediaThumbsContainer{
+    background:#f1f1f1;
+    height:106px
+}
+#mediaThumbsContainer .row{
+    padding-top:26px
+}
+#mediaThumbsContainer .button{
+    position:absolute;
+    height:53px;
+    width:28px;
+    text-indent:-9999px
+}
+#mediaThumbsPrev{
+    background-position:0 -10px;
+    left:20px
+}
+#mediaThumbsNext{
+    background-position:-28px -10px;
+    right:20px
+}
+#mediaThumbs{
+    position:absolute;
+    width:780px;
+    overflow:hidden
+}
+#mediaThumbs ul{
+    width:9999px;
+    height:60px
+}
+#mediaThumbs li{
+    margin-left:12px;
+    background:#fff url(//www.raffles.com/frhi/inc/img/spinner.gif) no-repeat center center
+}
+#mediaThumbs li:first-child{
+    margin-left:0
+}
+#mediaThumbs li{
+    width:146px;
+    height:60px
+}
+#mediaThumbs img{
+    cursor:pointer;
+    display:block;
+    width:140px;
+    height:54px;
+    border:3px solid #f1f1f1
+}
+#mediaThumbs img:hover,#mediaThumbs .current img{
+    border-color:#838383
+}
+.lt-ie8 #mediaControls .buttonThumb span{
+    margin-bottom:2px
+}
+#propertyMap{
+    height:345px;
+    background:#eaeaea;
+    margin-bottom:20px
+}
+#directionsRoute{
+    margin-top:13px
+}
+#directionTypes{
+    margin-bottom:13px
+}
+#directionTypes a{
+    width:54px;
+    height:23px;
+    margin-right:4px
+}
+.directionsIcon{
+    display:block;
+    background-image:url(//www.raffles.com/frhi/inc/img/map/directions-icons.gif);
+    background-repeat:no-repeat;
+    text-indent:-9999px
+}
+#mode_DRIVING{
+    background-position:0 -23px
+}
+#mode_TRANSIT{
+    background-position:-58px -23px
+}
+#mode_WALKING{
+    background-position:-116px -23px
+}
+#mode_BICYCLING{
+    background-position:-174px -23px
+}
+#mode_DRIVING.selected{
+    background-position:0 0
+}
+#mode_TRANSIT.selected{
+    background-position:-58px 0
+}
+#mode_WALKING.selected{
+    background-position:-116px 0
+}
+#mode_BICYCLING.selected{
+    background-position:-174px 0
+}
+.directionsText{
+    width:332px;
+    height:27px;
+    margin:0 0 13px 0;
+    border:1px solid #ababab;
+    padding-left:4px;
+    padding-right:4px
+}
+.directionsText.readonly{
+    background:#eaeaea
+}
+.dir{
+    overflow:hidden
+}
+.dirM{
+    width:32px;
+    height:29px;
+    background:#a0a0a0;
+    border:1px solid #ababab;
+    color:#fff;
+    border-right:0;
+    line-height:29px;
+    text-align:center
+}
+.dirM,.dirInput{
+    float:left
+}
+.lt-ie8 .dirM{
+    margin-top:1px
+}
+#dirSwap{
+    width:33px;
+    height:26px;
+    background-position:-237px 0;
+    margin:1px 0 0 10px;
+    float:left
+}
+#directionsRoute{
+    color:#000
+}
+.adp-placemark{
+    background:#fff;
+    border:0 none
+}
+.adp-placemark td{
+    background:0 none;
+    padding:0 5px
+}
+.adp-directions,.adp-summary{
+    margin-left:40px
+}
+.emailOfferInterestsRow{
+    margin-bottom:20px
+}
+.emailOfferInterestsRow img{
+    display:block;
+    margin-bottom:8px
+}
+.emailOfferInterestsRow input{
+    float:left;
+    width:30px
+}
+.emailOfferInterestsRow label{
+    float:left;
+    width:110px;
+    margin-top:-4px
+}
+.twtr-widget{
+    margin-top:52px!important
+}
+.positionedFix{
+    position:relative
+}
+.positionedFix.navHovered{
+    z-index:-1
+}
+.contentList{
+    padding-left:12px
+}
+.contentList li{
+    list-style-type:disc
+}
+.pressRoomDate{
+    color:#666
+}
+h1+.pressRoomDate{
+    margin:-17px 0 17px 0
+}
+.pressRoomTitle{
+    margin-bottom:0;
+    color:#000;
+    font-size:16px
+}
+.pressRoomTitle a{
+    color:#333
+}
+.pressRoomSideTitle{
+    font:normal 14px/18px Georgia,Times,Times New Roman,serif;
+    margin:8px 0 12px 0
+}
+.pressRoomSearchForm{
+    margin-right:20px
+}
+.pressRoomSearchForm .formRow,.meetingsForm .formRow{
+    padding-bottom:0
+}
+.pressRoomSearchForm .formButtonRow{
+    margin:10px 0 18px 0
+}
+.lt-ie8 .pressRoomSearchForm select{
+    width:100%
+}
+.meetingsForm p{
+    font-size:13px
+}
+.meetingsForm .labelSpace{
+    margin-bottom:6px;
+    font-size:11px
+}
+.meetingsForm .radioStack{
+    padding:6px 0;
+    display:inline-block
+}
+.formSummary h1{
+    font-size:18px
+}
+.formSummary dt{
+    width:245px;
+    float:left;
+    clear:both
+}
+.formSummary dd{
+    float:left;
+    width:455px;
+    margin-left:0
+}
+.formSummary .contactButton{
+    margin-bottom:10px;
+    display:block;
+    width:43px
+}
+.formSummary .dark{
+    font-size:13px;
+    line-height:24px
+}
+.formSummary .light{
+    font-size:13px;
+    line-height:24px;
+    color:#666
+}
+.landingTitle{
+    font-style:italic;
+    font-size:24px;
+    line-height:28px
+}
+h1.landingTitle{
+    margin-bottom:0;
+    padding-bottom:16px;
+    font-style:normal
+}
+h2.landingTitle{
+    margin-top:8px;
+    color:#666
+}
+#sitemap ul{
+    background:0
+}
+#sitemap li{
+    border:0;
+    margin:0;
+    padding:0
+}
+#sitemap a{
+    display:block;
+    margin:0;
+    padding:0;
+    font:13px/23px Arial,San-serif;
+    color:#666;
+    border:0
+}
+#sitemap h3{
+    margin-top:0
+}
+#weatherInfoRow{
+    color:#666;
+    font:14px/16px Georgia,Times,Times New Roman,serif
+}
+#weather{
+    margin-top:24px
+}
+.weatherCol{
+    width:110px;
+    float:left;
+    border-left:1px solid #e0dfdf;
+    padding:0 14px
+}
+.weatherCol:first-child{
+    border-left:none
+}
+.weatherText{
+    text-align:center
+}
+.weatherOverview{
+    height:190px
+}
+.weatherIcon{
+    margin:25px 0
+}
+.weatherDate{
+    font-size:12px
+}
+.weatherDesc{
+    font:14px/20px Georgia,Times,Times New Roman,serif;
+    margin-top:10px
+}
+.weatherStats{
+    font-size:11px
+}
+.weatherStats dt,.weatherStats dd{
+    float:left;
+    margin:2px 0
+}
+.weatherStats dt{
+    width:52px
+}
+.weatherStats dd{
+    width:58px;
+    text-align:right
+}
+.weatherNetwork{
+    font:11px/11px Arial,Sans-Serif;
+    margin-top:18px
+}
+#virtualTourContainer{
+    height:560px
+}
+.virtualTourTitle{
+    color:#000;
+    font:16px/40px Georgia,Times,Times New Roman,serif;
+    display:block
+}
+.virtualTourCategory{
+    cursor:pointer;
+    border-top:1px solid #e0dfdf;
+    border-bottom:1px solid #e0dfdf;
+    margin-bottom:-1px;
+    background:url(//www.raffles.com/frhi/inc/img/sprite.png) no-repeat -587px -245px
+}
+.virtualTourCategory.expanded{
+    background-position:-587px -285px
+}
+.virtualTours{
+    padding:10px 0
+}
+.virtualTour{
+    font-size:13px;
+    line-height:21px;
+    display:block;
+    color:#555
+}
+.virtualTour.selected{
+    font-weight:bold
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .formRow select,select.input{
+        -webkit-appearance:none;
+        background:#fff url(//www.raffles.com/frhi/inc/img/webkit-arrow.gif) no-repeat right center!important;
+        min-width:40px;
+        padding-right:25px
+    }
+    .formRow input[type="text"],.formRow input[type="password"],.formRow select,.formRow textarea,.input{
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box
+    }
+    .formRowBlock input[type="text"],.formRowBlock input[type="password"],.formRowBlock select,.formRowBlock textarea{
+        width:100%
+    }
+}
+.fontBlkClr p{
+    color:#333!important
+}
+#divPropertyLogo{
+    position:relative;
+    left:-7px;
+    top:10px;
+    width:217px
+}
+body.parisLogoWithLeftNav #divPropertyLogo{
+    position:relative;
+    left:740px;
+    top:0;
+    width:217px
+}
+body.parisLogoWithLeftNav div.content{
+    margin-top:-70px
+}
+.width_30per{
+    width:30%
+}
+.width_20per{
+    width:20%
+}
+.width_10per{
+    width:10%
+}
+#frhiFooter{
+    text-align:center;
+    padding:20px 0
+}
+#frhiLogo{
+    text-indent:0;
+    width:256px;
+    height:86px;
+    margin-bottom:50px
+}
+.frhiText{
+    color:#999;
+    font-size:11px;
+    text-decoration:none
+}
+.padT{
+    padding-top:40px;
+    *padding-top:33px
+}
+.padT .chckboxlabel{
+    top:-20px;
+    *top:-18px
+}
+.widget_UC .widgetSelect{
+    padding-right:5px!important
+}
+sssss .widget_UC .widgetInput{
+    padding:7px 8px
+}
+.widgetPair.roomRequiredChkBxDiv{
+    position:relative;
+    top:15px
+}
+.widgetPair.roomRequiredChkBxDiv input{
+    position:relative;
+    top:-4px
+}
+.widgetPair.roomRequiredChkBxDiv label{
+    width:85px;
+    margin-right:14px;
+    display:inline-block
+}
+@-moz-document url-prefix(){
+    .widget_UC .widgetInput{
+        padding:7px 3px
+    }
+}
+.widget_UC .widgetInput{
+    padding:7px 4px \9
+}
+.so_info-button{
+    display:block;
+    width:16px;
+    height:16px;
+    margin:-5px -10px 0 0;
+    text-indent:-9999px;
+    background:url(//www.raffles.com/frhi/inc/css/images/shr-button-question.png) no-repeat left top
+}
+.so_info-adabutton{
+    display:block;
+    width:16px;
+    height:16px;
+    margin:-5px -10px 0 0;
+    text-indent:-9999px;
+    background:url(//www.raffles.com/frhi/inc/css/images/ADAInfo.png) no-repeat left top
+}
+.so_brand-tooltip{
+    z-index:10000;
+    width:180px;
+    padding:10px 12px 22px 12px;
+    background:url(//www.raffles.com/frhi/inc/css/images/shr-tooltip-bg.png) no-repeat bottom center;
+    border-top:2px solid #cacac0;
+    font-size:.7em
+}
+.toolTipWrapperDiv{
+    position:relative;
+    top:19px;
+    left:-10px;
+    padding-right:10px
+}
+.toolTipWrapperDiv a,.chkAvailability_toolTipWrapperDiv a{
+    width:16px;
+    height:16px;
+    cursor:pointer
+}
+.chkAvailability_toolTipWrapperDiv a{
+    width:16px;
+    height:16px;
+    cursor:pointer;
+    margin-top:-6px
+}
+.chkAvailability_toolTipWrapperDiv{
+    position:relative;
+    top:43px;
+    *top:39px;
+    left:2px;
+    padding-right:10px
+}
+.roomRequiredTxt{
+    position:relative;
+    top:-2px;
+    *top:0
+}
+.chckboxlabel{
+    top:-20px;
+    left:20px
+}
+.accordian_style .span4{
+    margin-left:0;
+    margin-top:5px
+}
+#selectRoomContainer .span1{
+    width:25px;
+    padding:2px 0
+}
+#selectRoomContainer .header_style .span4{
+    width:260px;
+    margin-top:5px
+}
+.commonSpanStyle,.accordian_style .row{
+    margin-left:0
+}
+.commonSpanStyle{
+    width:235px;
+    padding-left:12px
+}
+#reserveSide{
+    width:300px;
+    margin-left:20px
+}
+.accordian_style .width300,.accordian_style .marL100{
+    margin-left:67px!important
+}
+.div_paddleft{
+    padding-left:10px
+}
+.div_margleft{
+    margin-left:61px
+}
+.firstNameErrorMsg{
+    font-size:12px;
+    color:#c00!important
+}
+.lastNameErrorMsg{
+    font-size:12px;
+    margin-right:25px;
+    color:#c00!important
+}
+.middleNameErrMsg{
+    font-size:12px;
+    color:#c00!important
+}
+.nameErrorVisibility{
+    display:none
+}
+.errorMsgMargin{
+    margin-bottom:5px;
+    margin-top:-10px
+}
+.twitterMargin{
+    margin-top:33px
+}
+.currencyOverflow{
+    overflow:auto
+}
+.warningMsg{
+    margin-top:20px
+}
+.email-offer-form{
+    width:20.5%;
+    display:inline-block;
+    float:left;
+    background-color:#eaeaea;
+    max-width:240px;
+    padding:25px;
+    margin-top:25px
+}
+.email-form-input-lhswrapper{
+    display:inline-block;
+    width:74%;
+    float:left
+}
+.email-form-input-wrapper{
+    display:inline-block;
+    margin-bottom:30px;
+    width:100%
+}
+.email-offer-form p{
+    text-align:center;
+    margin-bottom:0
+}
+#newsLetterOffers{
+    font-size:12px;
+    font-weight:bold
+}
+.receivenews-email-wrapper{
+    display:inline-block;
+    margin-top:20px;
+    font-weight:bold;
+    float:right;
+    display:block;
+    width:94%
+}
+.receive-new-email-input{
+    padding:6px 10px;
+    color:#999;
+    width:130px;
+    margin-left:15px;
+    border:1px solid #dcdbda
+}
+.receive-news-submitbtn{
+    border-bottom-left-radius:0;
+    border-top-left-radius:0;
+    margin-left:-5px;
+    padding:7px 20px 6px
+}
+.newsletter-more-number{
+    color:#999;
+    text-decoration:none
+}
+.email-offer-PrivacyPolicy a{
+    color:#333;
+    text-decoration:none
+}
+.email-offer-ie7-btn{
+    padding:6px 20px 6px!important
+}
+.email-offer-chrome-btn{
+    padding:7px 20px!important
+}
+#social{
+    clear:both;
+    margin-top:15px;
+    display:inline-block
+}
+.email-ie7 .receivenews-email-wrapper{
+    margin-bottom:15px
+}
+#newsLetterOffers .email-tool-room-resr{
+    margin-left:12px
+}
+.email-address-safariHack{
+    height:16px
+}
+.flyColmenu-french{
+    padding-left:10px!important
+}
+#divNavFlyout .flyoutContent .flyColmenu-turkish{
+    padding-left:25px
+}
+#divNavFlyout .flyoutContent .flyColmenu-turkish:first-child{
+    padding-left:0!important
+}
+#divNavFlyout .flyoutContent .flyColmenu-russian{
+    padding-left:8px!important
+}
+#divNavFlyout .flyoutContent .flyColmenu-russian:first-child{
+    padding-left:0!important
+}
+.flyout-container-russian{
+    width:745px!important
+}
+#divNavFlyout .flyoutSeparator-russian{
+    background-position:-65px -54px!important
+}
+.span3.marginBot15{
+    margin-bottom:15px!important
+}
+.search-item{
+    width:19px;
+    height:19px;
+    position:absolute;
+    vertical-align:middle;
+    background:url(//www.raffles.com/frhi/inc/img/search_icon.png) no-repeat;
+    right:3px;
+    background-color:#fff
+}
+.search-item-right{
+    float:right
+}
+#navMinor{
+    width:350px\9
+}
+#containerNavMinor>div.container{
+    width:100%!important
+}
+#divSearch{
+    position:relative;
+    z-index:0;
+    margin-top:-3px
+}
+.search-item-input{
+    width:110px!important;
+    height:14px!important;
+    font-size:80%!important;
+    color:#666;
+    font-size:12px!Important;
+    border:1px solid #949292;
+    border-right:0!important;
+    border-right-width:0;
+    border-right-style:none;
+    border-right-color:transparent;
+    height:15px!important;
+    height:15px \9!important;
+    margin-right:2px \9!important
+}
+.searh-item-btn{
+    height:19px;
+    width:19px;
+    background:url(//www.raffles.com/frhi/inc/img/search_icon.png) no-repeat #fff;
+    border:0
+}
+#divSearch .searh-item-btn{
+    position:absolute;
+    right:0;
+    top:3px;
+    top:3px \9;
+    border-right:0!important
+}
+.container.search-item-right #divSearch .searh-item-btn{
+    right:1px \9
+}
+#navMinor.nav.navBlock.right{
+    position:absolute;
+    right:0;
+    right:-1px \9!important;
+    width:auto!important
+}
+.nav.navBlock.right li.right{
+    padding-right:0!important;
+    float:left\9!important
+}
+.container.search-item-right #navMinor{
+    width:214px!important
+}
+.padB10{
+    padding-bottom:10px!important
+}
+.padT20{
+    padding-top:20px!important
+}
+.padL10{
+    padding-left:10px!important
+}
+.marginT0{
+    margin-top:0!important
+}
+.marginT2{
+    margin-top:2px!important
+}
+.ie9 #divSearch .searh-item-btn{
+    top:4px!important
+}
+.ie8 #divSearch .searh-item-btn{
+    right:0!important;
+    top:2px!important
+}
+.ie8 .container.search-item-right #divSearch .searh-item-btn{
+    right:-2px!important
+}
+.ie8 #navMinor{
+    width:357px!important
+}
+.ie8 .container.search-item-right #navMinor{
+    width:214px!important
+}
+.ie8 #divSearch .searh-item-btn{
+    top:3px!important
+}
